@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "brand": "Alfa Romeo",
+    "model": "Veloce, 2024",
+    "price": "$45,000",
+    "status": "Available",
+    "color": "#3498db",
+    "type": "Sedan",
+    "labels": ["New", "Featured"]
+  },
+  {
+    "id": 2,
+    "brand": "Alfa Romeo",
+    "model": "Competizione, 2024",
+    "price": "$50,000",
+    "status": "Sold",
+    "color": "#e74c3c",
+    "type": "Coupe",
+    "labels": ["Limited Edition"]
+  },
+  {
+    "id": 3,
+    "brand": "Alfa Romeo",
+    "model": "Sprint, 2024",
+    "price": "$42,000",
+    "status": "Available",
+    "color": "#2ecc71",
+    "type": "SUV",
+    "labels": ["Best Seller"]
+  },
+  {
+    "id": 4,
+    "brand": "Alfa Romeo",
+    "model": "Quadrifoglio, 2023",
+    "price": "$55,000",
+    "status": "Available",
+    "color": "#9b59b6",
+    "type": "Sedan",
+    "labels": ["New"]
+  },
+  {
+    "id": 5,
+    "brand": "Alfa Romeo",
+    "model": "Sprint Rear Wheel Drive",
+    "price": "$48,000",
+    "status": "Available",
+    "color": "#f1c40f",
+    "type": "Coupe",
+    "labels": ["Featured"]
+  },
+  {
+    "id": 6,
+    "brand": "Alfa Romeo",
+    "model": "Giulia, 2023",
+    "price": "$47,000",
+    "status": "Sold",
+    "color": "#34495e",
+    "type": "SUV",
+    "labels": ["Limited Edition", "Best Seller"]
+  },
+  {
+    "id": 7,
+    "brand": "Alfa Romeo",
+    "model": "Stelvio, 2023",
+    "price": "$60,000",
+    "status": "Available",
+    "color": "#1abc9c",
+    "type": "SUV",
+    "labels": ["New"]
+  },
+  {
+    "id": 8,
+    "brand": "Alfa Romeo",
+    "model": "Tonale, 2024",
+    "price": "$52,000",
+    "status": "Available",
+    "color": "#e67e22",
+    "type": "Sedan",
+    "labels": ["Featured"]
+  },
+  {
+    "id": 9,
+    "brand": "Alfa Romeo",
+    "model": "Giulietta, 2023",
+    "price": "$53,000",
+    "status": "Sold",
+    "color": "#e74c3c",
+    "type": "Coupe",
+    "labels": ["Limited Edition"]
+  },
+  {
+    "id": 10,
+    "brand": "Alfa Romeo",
+    "model": "4C Spider, 2024",
+    "price": "$49,000",
+    "status": "Available",
+    "color": "#9b59b6",
+    "type": "Coupe",
+    "labels": ["Best Seller"]
+  },
+  {
+    "id": 11,
+    "brand": "Alfa Romeo",
+    "model": "8C Competizione, 2023",
+    "price": "$51,000",
+    "status": "Available",
+    "color": "#2ecc71",
+    "type": "Sedan",
+    "labels": ["New"]
+  },
+  {
+    "id": 12,
+    "brand": "Alfa Romeo",
+    "model": "Brera, 2024",
+    "price": "$46,000",
+    "status": "Sold",
+    "color": "#3498db",
+    "type": "SUV",
+    "labels": ["Featured"]
+  },
+  {
+    "id": 13,
+    "brand": "Alfa Romeo",
+    "model": "MiTo, 2023",
+    "price": "$44,000",
+    "status": "Available",
+    "color": "#e67e22",
+    "type": "Sedan",
+    "labels": ["Limited Edition"]
+  },
+  {
+    "id": 14,
+    "brand": "Alfa Romeo",
+    "model": "GTV, 2024",
+    "price": "$43,000",
+    "status": "Available",
+    "color": "#1abc9c",
+    "type": "Coupe",
+    "labels": ["Best Seller"]
+  },
+  {
+    "id": 15,
+    "brand": "Alfa Romeo",
+    "model": "Spider, 2023",
+    "price": "$54,000",
+    "status": "Sold",
+    "color": "#34495e",
+    "type": "SUV",
+    "labels": ["New"]
+  }
+]

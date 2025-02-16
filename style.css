@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #111;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background: url('your-background-image.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: left;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #444;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 300px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.carousel-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  border-radius: 10px;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+.car-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.car-card {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.car-card img {
+  width: 100%;
+  height: 150px;
+  background-color: #555;
+  border-radius: 10px;
+}
+
+.car-card h3, .car-card p {
+  margin: 10px 0;
+}
+
+
+.app {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.filter-sidebar {
+  width: 20%;
+  min-width: 250px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.range-inputs {
+  position: relative;
+  height: 30px;
+}
+
+.range-inputs input[type="range"] {
+  position: absolute;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  pointer-events: none;
+}
+
+.range-inputs input[type="range"]::-webkit-slider-runnable-track {
+  height: 5px;
+  background: #ccc;
+}
+
+.range-inputs input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #3498db;
+  border-radius: 50%;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.histogram {
+  display: flex;
+  align-items: flex-end;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.bar {
+  width: 10%;
+  background-color: #3498db;
+  margin-right: 2px;
+}
+
+.color-bubble {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+
+.car-list {
+  width: 80%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.car-card {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.scroll-item {
+  flex: 0 0 100%;
+  height: 100%;
+  transition: background-color 0.3s;
+}
+
+.labels {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.label {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.car-info {
+  margin-bottom: 10px;
+}
+
+.car-info h4 {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.model-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.model-price h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.model-price p {
+  margin: 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.car-card .available {
+  color: green;
+  font-weight: bold;
+}
+
+.car-card .sold {
+  color: red;
+  font-weight: bold;
+}
